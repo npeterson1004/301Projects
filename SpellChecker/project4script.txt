@@ -1,0 +1,47 @@
+Script started on Tue 11 Jul 2023 11:24:54 AM CDT
+]0;qw3581ym@csci4:~/301Project4[?1034h[qw3581ym@csci4 301Project4]$ g++ main.cpp
+]0;qw3581ym@csci4:~/301Project4[qw3581ym@csci4 301Project4]$ ./a.out
+Enter the name of the file that contains words to check: dictionary.txt
+
+Spell check any word shown in the dictionary
+The dictionary contains 6 words:
+dragon mustard egg person deer apple 
+
+Enter 3 words you want to spell check:
+--> dragon
+--> musterd
+--> persin
+
+------
+The words below are spelled correctly!
+dragon
+
+The words below are spelled incorrectly!
+persin
+musterd
+]0;qw3581ym@csci4:~/301Project4[qw3581ym@csci4 301Project4]$ ./a.outg++ main.cpp[5P./a.out
+Enter the name of the file that contains words to check: dragen
+Error opening file dragen
+]0;qw3581ym@csci4:~/301Project4[qw3581ym@csci4 301Project4]$ ./a.outg++ main.cpp[5P./a.out
+Enter the name of the file that contains words to check: du ictionary.txt
+
+Spell check any word shown in the dictionary
+The dictionary contains 6 words:
+dragon mustard egg person deer apple 
+
+Enter 3 words you want to spell check:
+--> dragen
+--> egg
+--> apple
+
+------
+The words below are spelled correctly!
+apple
+egg
+
+The words below are spelled incorrectly!
+dragen
+]0;qw3581ym@csci4:~/301Project4[qw3581ym@csci4 301Project4]$ exit
+exit
+
+Script done on Tue 11 Jul 2023 11:25:53 AM CDT

@@ -1,0 +1,58 @@
+Script started on Thu 06 Jul 2023 10:48:53 AM CDT
+]0;qw3581ym@csci4:~/301Project3[?1034h[qw3581ym@csci4 301Project3]$ g++ main.cpp
+]0;qw3581ym@csci4:~/301Project3[qw3581ym@csci4 301Project3]$ ./a.out
+Enter the number of elements in the array (maximum 10): 5
+Enter element 1: 2
+Enter element 2: 43
+Enter element 3: 67
+Enter element 4: 54
+Enter element 5: 4
+Enter the k for the kth smallest element in the array (1 to 5): 1
+The 1st smallest element is: 2
+Do you want to find another k? (y/n): y
+Enter the k for the kth smallest element in the array (1 to 5): 2
+The 2nd smallest element is: 4
+Do you want to find another k? (y/n): y
+Enter the k for the kth smallest element in the array (1 to 5): 3
+The 3rd smallest element is: 43
+Do you want to find another k? (y/n): y
+Enter the k for the kth smallest element in the array (1 to 5): 4
+The 4th smallest element is: 54
+Do you want to find another k? (y/n): y
+Enter the k for the kth smallest element in the array (1 to 5): 5
+The 5th smallest element is: 67
+Do you want to find another k? (y/n): n
+]0;qw3581ym@csci4:~/301Project3[qw3581ym@csci4 301Project3]$ ./a.out
+Enter the number of elements in the array (maximum 10): 7
+Enter element 1: 1
+Enter element 2: 3
+Enter element 3: 4
+Enter element 4: 2
+Enter element 5: 19
+Enter element 6: 3
+Enter element 7: 4
+Enter the k for the kth smallest element in the array (1 to 7): 1
+The 1st smallest element is: 1
+Do you want to find another k? (y/n): 2 y
+Enter the k for the kth smallest element in the array (1 to 7): 2
+The 2nd smallest element is: 2
+Do you want to find another k? (y/n): y
+Enter the k for the kth smallest element in the array (1 to 7): 3
+The 3rd smallest element is: 3
+Do you want to find another k? (y/n): y
+Enter the k for the kth smallest element in the array (1 to 7): 4
+The 4th smallest element is: 3
+Do you want to find another k? (y/n): y
+Enter the k for the kth smallest element in the array (1 to 7): 5
+The 5th smallest element is: 4
+Do you want to find another k? (y/n): y
+Enter the k for the kth smallest element in the array (1 to 7): 6
+The 6th smallest element is: 4
+Do you want to find another k? (y/n): y
+Enter the k for the kth smallest element in the array (1 to 7): 7
+The 7th smallest element is: 19
+Do you want to find another k? (y/n): n
+]0;qw3581ym@csci4:~/301Project3[qw3581ym@csci4 301Project3]$ exit
+exit
+
+Script done on Thu 06 Jul 2023 10:50:19 AM CDT

@@ -1,0 +1,116 @@
+Script started on Mon 17 Jul 2023 03:28:49 PM CDT
+]0;qw3581ym@csci4:~/301Project6[?1034h[qw3581ym@csci4 301Project6]$ g++ IsAScr[K[K[KDriver.cpp
+]0;qw3581ym@csci4:~/301Project6[qw3581ym@csci4 301Project6]$ ./a.out
+Adding zero
+Adding one
+Adding two
+Adding three
+Adding four
+Adding five
+The sorted list contains 
+five four one three two zero 
+
+Copy of list: The sorted list contains 
+five four one three two zero 
+
+The copied list: The sorted list contains 
+five four one three two zero 
+
+Testing the Link-Based Sorted List:
+
+Test isEmpty with an empty list:
+OK
+List should contain
+Brent, Donna, Jerry, Luke, Sue, Tom
+
+List actually contains:
+The sorted list contains 
+Brent Donna Jerry Luke Sue Tom 
+
+
+
+Test getPosition:
+
+Brent is at position 1
+Donna is at position 2
+Jerry is at position 3
+Luke is at position 4
+Sue is at position 5
+Tom is at position 6
+Missy belongs at position -5
+Zeke belongs at position -7
+Aaron belongs at position -1
+
+Test getLength and getEntry:
+
+
+List has 6 entries, as follows:
+
+1: Brent
+2: Donna
+3: Jerry
+4: Luke
+5: Sue
+6: Tom
+
+Test remove:
+
+
+Removing first item (Brent): 1; should be 1 (true)
+
+After removing Brent, list contains 5 items, as follows:
+The sorted list contains 
+Donna Jerry Luke Sue Tom 
+
+
+Removing interior item (Luke): 1; should be 1 (true)
+
+After removing Luke, list contains 4 items, as follows:
+The sorted list contains 
+Donna Jerry Sue Tom 
+
+Removing last item (Tom): ; should be 1 (true)
+
+After removing last item, list contains 3 items, as follows:
+The sorted list contains 
+Donna Jerry Sue 
+
+
+Removing a missing item (Brent): 0; should be 0 (false)
+
+Removing a missing item (Luke): 0; should be 0 (false)
+
+Removing a missing item (Tom): 0; should be 0 (false)
+
+The list contains 3 items, as follows:
+The sorted list contains 
+Donna Jerry Sue 
+
+
+Test clear():
+
+
+The list is empty after invoking clear().
+======================================
+
+Testing the List Operations:
+The sorted list contains 
+Brent Donna Jerry Luke Sue Tom 
+
+isEmpty: returns 0; should be 0 (false)
+getLength returns : 6; should be 6
+remove(2): returns 1; should be 1 (true)
+remove(1): returns 1; should be 1 (true)
+remove(6): returns 0; should be 0 (false)
+The sorted list contains 
+Jerry Luke Sue Tom 
+
+getLength returns : 4; should be 4
+clear: 
+isEmpty: returns 1; should be 1 (true)
+Attempt an illegal retrieval from position 6: 
+Precondition Violated Exception: getEntry() called with an empty list or invalid position.
+]0;qw3581ym@csci4:~/301Project6[qw3581ym@csci4 301Project6]$ g[Kexit
+exit
+
+Script done on Mon 17 Jul 2023 03:29:08 PM CDT

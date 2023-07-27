@@ -1,0 +1,14 @@
+Script started on Fri 30 Jun 2023 06:46:06 PM CDT
+]0;qw3581ym@csci4:~/301Project1[?1034h[qw3581ym@csci4 301Project1]$ g++ p1_t1.cpp
+]0;qw3581ym@csci4:~/301Project1[qw3581ym@csci4 301Project1]$ ./a.out
+Enter the numerator of a fraction:1
+Enter the denominator of a fraction:2
+Your Fraction:1/2
+]0;qw3581ym@csci4:~/301Project1[qw3581ym@csci4 301Project1]$ ./a.out
+Enter the numerator of a fraction:5
+Enter the denominator of a fraction:8
+Your Fraction:5/8
+]0;qw3581ym@csci4:~/301Project1[qw3581ym@csci4 301Project1]$ exit
+exit
+
+Script done on Fri 30 Jun 2023 06:46:26 PM CDT

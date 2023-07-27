@@ -1,0 +1,36 @@
+Script started on Fri 30 Jun 2023 06:43:47 PM CDT
+]0;qw3581ym@csci4:~/301Project1[?1034h[qw3581ym@csci4 301Project1]$ exit./a.out3[K./a.outg++ p1_t1.cpp[K[K[K[K[K[K[K_t2.cpp
+]0;qw3581ym@csci4:~/301Project1[qw3581ym@csci4 301Project1]$ g[K./a.out
+Enter the numerator of a fraction:1
+Enter the denominator of a fraction:2
+Your Fraction:1/2
+Enter the numerator of a 2nd fraction:3
+Enter the denominator of a 2nd fraction:4
+Your 2nd Fraction:3/4
+Your Fractions Added:5/4
+
+Your Fractions Subtracted:1/-4
+
+Your Fractions Multiplied:3/8
+
+Your Fractions Divided:2/3
+
+]0;qw3581ym@csci4:~/301Project1[qw3581ym@csci4 301Project1]$ ./a.out
+Enter the numerator of a fraction:7
+Enter the denominator of a fraction:8
+Your Fraction:7/8
+Enter the numerator of a 2nd fraction:9
+Enter the denominator of a 2nd fraction:5
+Your 2nd Fraction:9/5
+Your Fractions Added:107/40
+
+Your Fractions Subtracted:37/-40
+
+Your Fractions Multiplied:63/40
+
+Your Fractions Divided:35/72
+
+]0;qw3581ym@csci4:~/301Project1[qw3581ym@csci4 301Project1]$ exit
+exit
+
+Script done on Fri 30 Jun 2023 06:45:09 PM CDT

@@ -1,0 +1,134 @@
+Script started on Sun 02 Jul 2023 02:34:04 PM CDT
+]0;qw3581ym@csci4:~/301Project2[?1034h[qw3581ym@csci4 301Project2]$ g++ main.cpp
+In file included from [01m[Kmain.cpp:17:0[m[K:
+[01m[Kcart.h:4:17:[m[K [01;31m[Kfatal error: [m[Kbag.h: No such file or directory
+ #include "bag.h"
+[01;32m[K                 ^[m[K
+compilation terminated.
+]0;qw3581ym@csci4:~/301Project2[qw3581ym@csci4 301Project2]$ ls
+Bag.cpp  BagInterface.h  cart.h    item.h    p3script.txt
+Bag.h    cart.cpp        item.cpp  main.cpp
+]0;qw3581ym@csci4:~/301Project2[qw3581ym@csci4 301Project2]$ lsg++ main.cpp
+]0;qw3581ym@csci4:~/301Project2[qw3581ym@csci4 301Project2]$ ./a.out
+Welcome to Nathan's Shopping Center!
+Your Cart: 
+Item     Price     Quantity
+______________________________
+______________________________
+Your Total: $0
+What do you want to do? (Enter option 1-4)
+1: Add Item
+2: Remove Item
+3: Change Quantity
+4: Exit Program
+->1
+Enter the item you selected in the following order:
+name unitPrice quantity
+Item->milk2 
+Price->4
+Quantity->2
+
+Do you want to add another item? (y/n)
+->y
+Item->egs gs
+Price->3
+Quantity->2
+
+Do you want to add another item? (y/n)
+->y
+Item->cheese
+Price->1
+Quantity->7
+
+Do you want to add another item? (y/n)
+->n
+Your Cart: 
+Item     Price     Quantity
+______________________________
+1: milk,   $4,   2
+2: eggs,   $3,   2
+3: cheese,   $1,   7
+______________________________
+Your Total: $21
+
+What do you want to do? (Enter option 1-4)
+1: Add Item
+2: Remove Item
+3: Change Quantity
+4: Exit Program
+->2
+Enter the item you selected in the following order:
+name unitPrice quantity
+Item->eggs
+Price->3
+Quantity->2
+
+Do you want to remove another item? (y/n)
+->n
+Your Cart: 
+Item     Price     Quantity
+______________________________
+1: milk,   $4,   2
+2: cheese,   $1,   7
+______________________________
+Your Total: $15
+
+What do you want to do? (Enter option 1-4)
+1: Add Item
+2: Remove Item
+3: Change Quantity
+4: Exit Program
+->3
+Enter the item to change in the following order: name unitPrice quantity
+Item->cheese
+Price->1
+Quantity->7
+Enter the new quantity:
+-->3 2
+The item's quantity has been updated!
+
+Your Cart: 
+Item     Price     Quantity
+______________________________
+1: milk,   $4,   2
+2: cheese,   $1,   2
+______________________________
+Your Total: $10
+
+What do you want to do? (Enter option 1-4)
+1: Add Item
+2: Remove Item
+3: Change Quantity
+4: Exit Program
+->3
+Enter the item to change in the following order: name unitPrice quantity
+Item->cheese
+Price->1
+Quantity->-2
+No such item in the shopping cart!
+Enter the item to change in the following order: name unitPrice quantity
+Item->cheese
+Price->1
+Quantity->2
+Enter the new quantity:
+-->3
+The item's quantity has been updated!
+
+Your Cart: 
+Item     Price     Quantity
+______________________________
+1: milk,   $4,   2
+2: cheese,   $1,   3
+______________________________
+Your Total: $11
+
+What do you want to do? (Enter option 1-4)
+1: Add Item
+2: Remove Item
+3: Change Quantity
+4: Exit Program
+->4
+]0;qw3581ym@csci4:~/301Project2[qw3581ym@csci4 301Project2]$ exit
+exit
+
+Script done on Sun 02 Jul 2023 02:36:51 PM CDT

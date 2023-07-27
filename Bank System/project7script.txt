@@ -1,0 +1,35 @@
+Script started on Wed 26 Jul 2023 08:11:38 PM CDT
+]0;qw3581ym@csci4:~/301Project7[?1034h[qw3581ym@csci4 301Project7]$ g++ main.cpp
+]0;qw3581ym@csci4:~/301Project7[qw3581ym@csci4 301Project7]$ ./a.out
+Simulation Begins
+Processing an arrival event at time:	86
+Processing a departure event at time:	89
+Processing an arrival event at time:	30
+Processing a departure event at time:	35
+Processing an arrival event at time:	28
+Processing a departure event at time:	33
+Processing an arrival event at time:	26
+Processing a departure event at time:	31
+Processing an arrival event at time:	24
+Processing a departure event at time:	29
+Processing an arrival event at time:	22
+Processing a departure event at time:	27
+Processing an arrival event at time:	18
+Processing a departure event at time:	23
+Processing an arrival event at time:	4
+Processing a departure event at time:	9
+Processing an arrival event at time:	2
+Processing a departure event at time:	7
+Processing an arrival event at time:	1
+Processing a departure event at time:	6
+Simulation Ends
+
+Final Statistics:
+
+Total number of customers processed: 10
+Average amount of time spent waiting: 4.8
+
+]0;qw3581ym@csci4:~/301Project7[qw3581ym@csci4 301Project7]$ exit
+exit
+
+Script done on Wed 26 Jul 2023 08:11:49 PM CDT

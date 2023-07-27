@@ -1,0 +1,26 @@
+Script started on Tue 11 Jul 2023 12:21:10 PM CDT
+]0;qw3581ym@csci4:~/301Project5[?1034h[qw3581ym@csci4 301Project5]$ [K[qw3581ym@csci4 301Project5]$ g++ main.cpp
+]0;qw3581ym@csci4:~/301Project5[qw3581ym@csci4 301Project5]$ ./a.out
+Enter Infix: 
+-->4+3/(  - -(2+3)
+Postfix orientation: 43+23+-
+Calculation: 2
+]0;qw3581ym@csci4:~/301Project5[qw3581ym@csci4 301Project5]$ ./a.outg++ main.cpp[5P./a.out
+Enter Infix: 
+-->5-2*(12/6 3)
+Postfix orientation: Wrong Expression
+Segmentation fault (core dumped)
+]0;qw3581ym@csci4:~/301Project5[qw3581ym@csci4 301Project5]$ ./a.outg++ main.cpp[5P./a.out
+Enter Infix: 
+-->5-2( *(5+3)
+Postfix orientation: 52-53+*
+Calculation: 24
+]0;qw3581ym@csci4:~/301Project5[qw3581ym@csci4 301Project5]$ 5[K./a.outg++ main.cpp[5P./a.out
+Enter Infix: 
+-->6/3+(2*7)-5
+Postfix orientation: 63/27*+5-
+Calculation: 11
+]0;qw3581ym@csci4:~/301Project5[qw3581ym@csci4 301Project5]$ exit
+exit
+
+Script done on Tue 11 Jul 2023 12:23:50 PM CDT

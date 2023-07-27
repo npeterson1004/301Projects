@@ -1,0 +1,128 @@
+Script started on Thu 27 Jul 2023 12:41:58 PM CDT
+]0;qw3581ym@csci4:~/301Project8[?1034h[qw3581ym@csci4 301Project8]$ g++ main.cpp
+]0;qw3581ym@csci4:~/301Project8[qw3581ym@csci4 301Project8]$ ./a.out
+Welcome to xxx database system. Please enter the file that contains initial people list: list.txt
+Please enter your option:
+1. add a new person
+2. remove a person
+3. modify the database
+4. search for a person in the database
+5. display the database
+6. display the database sorted by names
+7. quit and save the database to a file
+--> 1
+To add, enter name and birthday (month day year): Nathan 10 04 2002
+Add another one? (Y/N): n
+Please enter your option:
+1. add a new person
+2. remove a person
+3. modify the database
+4. search for a person in the database
+5. display the database
+6. display the database sorted by names
+7. quit and save the database to a file
+--> 2
+To remove, enter a name: John
+Remove another one? (Y/N): y
+To remove, enter a name: Cat
+Remove another one? (Y/N): n
+Please enter your option:
+1. add a new person
+2. remove a person
+3. modify the database
+4. search for a person in the database
+5. display the database
+6. display the database sorted by names
+7. quit and save the database to a file
+--> 3
+To modify, enter person's name: Nathan
+Found this person in the database. This person's data has been removed.
+Enter this person's new information: name and birthday (month day year): Naath   han   than 10 04 2002    3002
+Continue to modify? (Y/N): n
+Please enter your option:
+1. add a new person
+2. remove a person
+3. modify the database
+4. search for a person in the database
+5. display the database
+6. display the database sorted by names
+7. quit and save the database to a file
+--> 5
+The database displayed using preorder (not sorted):
+Alice 6 2 1990
+Apple 8 7 1956
+James 8 4 2000
+Jason 8 6 1992
+Joe 1 10 1998
+Ken 4 14 1987
+Wendy 8 8 1989
+Nathan 10 4 3002
+Please enter your option:
+1. add a new person
+2. remove a person
+3. modify the database
+4. search for a person in the database
+5. display the database
+6. display the database sorted by names
+7. quit and save the database to a file
+--> 6
+The database displayed in sorted order by names:
+Alice 6 2 1990
+Apple 8 7 1956
+James 8 4 2000
+Jason 8 6 1992
+Joe 1 10 1998
+Ken 4 14 1987
+Nathan 10 4 3002
+Wendy 8 8 1989
+Please enter your option:
+1. add a new person
+2. remove a person
+3. modify the database
+4. search for a person in the database
+5. display the database
+6. display the database sorted by names
+7. quit and save the database to a file
+--> 1
+To add, enter name and birthday (month day year): Cat 10 11 1223
+Add another one? (Y/N): n
+Please enter your option:
+1. add a new person
+2. remove a person
+3. modify the database
+4. search for a person in the database
+5. display the database
+6. display the database sorted by names
+7. quit and save the database to a file
+--> 5
+The database displayed using preorder (not sorted):
+Alice 6 2 1990
+Apple 8 7 1956
+James 8 4 2000
+Cat 10 11 1223
+Jason 8 6 1992
+Joe 1 10 1998
+Ken 4 14 1987
+Wendy 8 8 1989
+Nathan 10 4 3002
+Please enter your option:
+1. add a new person
+2. remove a person
+3. modify the database
+4. search for a person in the database
+5. display the database
+6. display the database sorted by names
+7. quit and save the database to a file
+--> 7
+The updated database has been saved to “studentDB2.txt”.
+Bye!
+]0;qw3581ym@csci4:~/301Project8[qw3581ym@csci4 301Project8]$ ls StudentDB2.txt
+ls: cannot access StudentDB2.txt: No such file or directory
+]0;qw3581ym@csci4:~/301Project8[qw3581ym@csci4 301Project8]$ ls StudentDB2.txt[C[C[C[C[1PtudentDB2.txtstudentDB2.txt
+ls: cannot access studentDB2.txt: No such file or directory
+]0;qw3581ym@csci4:~/301Project8[qw3581ym@csci4 301Project8]$ ls studentDB2.txt"[C"studentDB2.txt"
+ls: cannot access studentDB2.txt: No such file or directory
+]0;qw3581ym@csci4:~/301Project8[qw3581ym@csci4 301Project8]$ exit
+exit
+
+Script done on Thu 27 Jul 2023 12:45:06 PM CDT
